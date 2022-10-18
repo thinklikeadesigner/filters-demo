@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "reactSnippets.settings.prettierEnabled": false,
+  "prettier.useEditorConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.useTabs": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.suggestionActions.enabled": false,
+  "javascript.validate.enable": false
+}
