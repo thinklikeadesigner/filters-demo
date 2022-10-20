@@ -1,3 +1,14 @@
+
+
+- [ ] check all any and see if can make specific
+- [ ] unit test
+- [ ] integration test
+- [ ] filters persist with pagination
+- [ ] all amenities from entire dataset
+- [ ] calculations with web worker
+
+
+<details />
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,11 +55,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-[ ] check all any and see if can make specific
-[ ] unit test
-[ ] integration test
-[ ] filters persist with pagination
-[ ] all amenities from entire dataset
-[ ] calculations with web worker

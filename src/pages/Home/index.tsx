@@ -1,4 +1,4 @@
-import React, { SetStateAction, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import FilterPanel from '../../components/Home/FilterPanel';
 import List from '../../components/Home/List';
 import SearchBar from '../../components/Home/SearchBar';
@@ -96,8 +96,6 @@ const Home = () => {
   useEffect(() => {
     applyFilters();
   }, [selectedRating, selectedCategory, cuisines, selectedPrice, searchInput]);
-
-  const clearFilters = () => setList(dataList);
 
   return (
     <div className="home">
