@@ -4,8 +4,11 @@ import React from 'react';
 
 const EmptyView = (/**props: Props */) => {
   return (
-    <div>
-      <h1>EmptyView</h1>
+    <div className="emptyView-wrap">
+      <img
+        src="/images/gif/empty.gif"
+        alt="emptyView"
+      />
     </div>
   );
 };

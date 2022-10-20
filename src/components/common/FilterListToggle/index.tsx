@@ -41,6 +41,16 @@ type Props = {
 const FilterListToggle = ({ options, value, selectToggle }: Props) => {
   const classes = useStyles();
 
+  const ToggleButtons = options.map(({ label, id, value }: any) => (
+    <ToggleButton
+      className={classes.toggle}
+      key={id}
+      value={value}
+    >
+      {label}
+    </ToggleButton>
+  ));
+
   return (
     <ToggleButtonGroup
       value={value}
@@ -48,15 +58,7 @@ const FilterListToggle = ({ options, value, selectToggle }: Props) => {
       className={classes.root}
       exclusive
     >
-      {options.map(({ label, id, value }: any) => (
-        <ToggleButton
-          className={classes.toggle}
-          key={id}
-          value={value}
-        >
-          {label}
-        </ToggleButton>
-      ))}
+      {ToggleButtons}
     </ToggleButtonGroup>
   );
 };

@@ -49,3 +49,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 [ ] check all any and see if can make specific
 [ ] unit test
 [ ] integration test
+[ ] filters persist with pagination
+[ ] all amenities from entire dataset
+[ ] calculations with web worker

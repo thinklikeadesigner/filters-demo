@@ -2,6 +2,7 @@ import FilterListToggle from '../../common/FilterListToggle';
 import './style.css';
 import { categoryList, ratingList } from '../../../constants';
 import CheckboxProton from '../../common/Checkbox';
+import SliderProton from '../../common/SliderProton';
 
 type Props = {
   selectedCategory: any;
@@ -10,6 +11,8 @@ type Props = {
   selectRating: any;
   changeChecked: any;
   cuisines: any;
+  selectedPrice: any;
+  changePrice: any;
 };
 const FilterPanel = ({
   selectedCategory,
@@ -18,6 +21,8 @@ const FilterPanel = ({
   selectRating,
   changeChecked,
   cuisines,
+  selectedPrice,
+  changePrice,
 }: Props) => {
   return (
     <div>
@@ -42,7 +47,14 @@ const FilterPanel = ({
         ))}
       </div>
       {/* Price Range */}
-      {/* IMPLEMENT PRICE RANGE */}
+
+      <div className="input-group">
+        <p className="label-range">Prices</p>
+        <SliderProton
+          value={selectedPrice}
+          changePrice={changePrice}
+        />
+      </div>
       {/* Star Rating */}
       <div className="input-group">
         <p className="label">Star Rating</p>

@@ -1,4 +1,3 @@
-import React, { ChangeEventHandler } from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import './styles.css';
 type Props = {
